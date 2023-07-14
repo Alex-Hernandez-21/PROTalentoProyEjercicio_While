@@ -25,7 +25,9 @@ while ( n <= resultEntero){
 }
 console.log(multiplos);  
 
+// funcion para imprimir los datos de la array
+
 var foo = multiplos.map(function(i){
     return  i + "";
   })
-  document.getElementById("foo").innerHTML = foo;
+document.getElementById("foo").innerHTML = foo;
